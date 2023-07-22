@@ -56,8 +56,6 @@ function UserTiketSaya() {
                     width: "69px",
                     height: "24px",
                     borderRadius: "2px",
-                    background:
-                      "linear-gradient(180deg, #F7941E 0%, #DC7D0B 100%,)",
                   }}
                 >
                   <p
