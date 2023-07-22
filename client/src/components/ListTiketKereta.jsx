@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import { DataKeretaContext } from "../context/dataKeretaContext";
 
 // import image
 import Arrow from "../assets/image/Arrow.svg";
