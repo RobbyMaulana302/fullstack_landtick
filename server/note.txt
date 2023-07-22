@@ -1,0 +1,48 @@
+``
+    echo adalah framework dari golang yang memudahkan untuk membuat program seperti REST API
+
+``
+
+``
+    gorm adalah library dimana kita bisa melakukan akses/koneksi dan menjalankan beberapa query dengan mudah
+``
+
+``
+    mysql adalah database yang digunakan untuk menyimpan data dan DML (Data Manipupulation Languange) yang digunakan pada project landtick ini
+``
+
+``
+    func main adalah function utama yang akan menjalankan seluruh perintah dari yaang dibuat
+``
+
+``
+    e.Start() untuk menjalankan di server local host
+``
+
+``
+    func DatabaseInit() pada folder pkg/mysql/mysql.go digunakan untuk mengkoneksikan ke database
+``
+
+``
+    func RunMigration pada folder database/db_migration.go digunakan untuk auto migrasi dan membuat table secara otomatis dengan struktur table menggunakan data models pada folder models
+``
+
+``
+    folder models yang didalamnya terdapat struct dari model data yang akan digunakan untuk migrasi dan digunakan untuk acuan saat ingin menggunakan dari models user
+``
+
+``
+    folder dto atau data transfer object yang akan menjadi layer / bayangan saat ingin mendapatkan data dari handler dimana dto akan memanipulasi setiap data yang akan di transfer
+``
+
+``
+    folder repostories digunakan untuk menyimpan function yang didalamnya akan menyimpan query dan mengirimkan data yang mengembalikan data yang diminta
+``
+
+``
+    folder handlers sebagai gerbang utama untuk masuk ke dalam repostories dimana didalamnya terdapat logic yang akan digunakan
+``
+
+`` 
+    folder routes digunakan sebagai rute parameter url yang menggunakan http request yaitu GET, POST, PATCH and DELETE
+``
