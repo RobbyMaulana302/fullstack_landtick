@@ -5,7 +5,7 @@ import (
 )
 
 type Ticket struct {
-	ID                 int       `json:"id" gorm:"primaryKey"`
+	ID                 int       `json:"id" gorm:"primary_key:auto_increment"`
 	NameTrain          string    `json:"name_train" gorm:"type: varchar(255)"`
 	TypeTrain          string    `json:"type_train" gorm:"type: varchar(255)"`
 	StartDate          time.Time `json:"start_date" gorm:"date"`
@@ -13,8 +13,8 @@ type Ticket struct {
 	StartTime          string    `json:"start_time" gorm:"type: varchar(255)"`
 	DestinationStation string    `json:"destination_station" gorm:"type: varchar(255)"`
 	ArivalTime         string    `json:"arival_time" gorm:"type: varchar(255)"`
-	Price              int       `json:"price" gorm:"type: int(20)"`
-	Qty                int       `json:"qty" gorm:"type: int(20)"`
+	Price              int       `json:"price" gorm:"type: int"`
+	Qty                int       `json:"qty" gorm:"type: int"`
 	CreatedAd          time.Time `json:"-"`
 	UpdateAd           time.Time `json:"-"`
 }
