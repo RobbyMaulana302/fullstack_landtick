@@ -36,6 +36,7 @@ function Login(props) {
 
 			// insert data for login
 			const response = await API.post("/login", form);
+			console.log("login response", response);
 
 			// send data to useContext
 			dispatch({
