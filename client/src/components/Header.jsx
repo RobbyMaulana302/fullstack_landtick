@@ -14,8 +14,7 @@ import Logout from "../assets/image/Logout.png"
 import Brand from "../assets/image/Brand.png"
 import TambahTiket from "../assets/image/TambahTiket.png"
 import Registrasi from './modals/Register'
-import { useQuery } from 'react-query'
-import { API, setAuthToken } from '../config/api'
+import { API, setAuthToken } from '../config/Api'
 
 
 function Header() {
