@@ -7,7 +7,7 @@ import Iklan from "../assets/image/IklanHarga.png";
 import Rounded from "../assets/image/Rounded.svg";
 import ListTiketKereta from "./ListTiketKereta";
 import { useQuery } from "react-query";
-import { API, DataKereta } from "../config/api";
+import { API, DataKereta } from "../config/Api";
 
 function MainContent() {
   // handle usstate iklan

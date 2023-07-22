@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 // import image
 import BrandWhite from "../../assets/image/BrandWhite.png";
 import { useQuery } from "react-query";
-import { API } from "../../config/api";
+import { API } from "../../config/Api";
 
 function UserTiketSaya() {
   const navigate = useNavigate()

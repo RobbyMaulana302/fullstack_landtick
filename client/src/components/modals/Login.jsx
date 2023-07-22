@@ -3,7 +3,7 @@ import { Modal, Form, Button, Alert } from 'react-bootstrap'
 import { UserContext } from '../../context/userContext'
 import { useNavigate } from 'react-router-dom';
 import { useMutation } from 'react-query';
-import { API, setAuthToken } from '../../config/api';
+import { API, setAuthToken } from '../../config/Api';
 
 function Login(props) {
 	let navigate = useNavigate()

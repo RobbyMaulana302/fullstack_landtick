@@ -8,7 +8,7 @@ import { MdDeleteForever } from "react-icons/md";
 import AdminModalInvoice from "./modals/AdminModalInvoice";
 import AdminModalStatus from "./modals/AdminModalStatus";
 import { useMutation, useQuery } from "react-query";
-import { API } from "../../config/api";
+import { API } from "../../config/Api";
 import DeleteData from "../../components/modals/Delete";
 
 function AdminHomePage() {

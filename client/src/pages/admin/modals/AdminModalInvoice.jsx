@@ -5,7 +5,7 @@ import { Modal, Button, Row, Col  } from "react-bootstrap";
 import BrandWhite from "../../../assets/image/BrandWhite.png"
 import QrModal from "../../../assets/image/QrModal.png"
 import { useQuery } from "react-query";
-import { API } from "../../../config/api";
+import { API } from "../../../config/Api";
 
 function AdminModalInvoice(props) { 
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Alert, Container,  Form } from "react-bootstrap";
-import { API, DataKereta } from "../../config/api";
+import { API, DataKereta } from "../../config/Api";
 import { useMutation, useQuery } from "react-query";
 
 function AdminTambahTiket() {

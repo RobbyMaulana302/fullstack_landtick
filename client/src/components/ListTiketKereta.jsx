@@ -7,7 +7,7 @@ import Arrow from "../assets/image/Arrow.svg";
 import TiketModal from "../pages/user/modals/TiketModal";
 import { UserContext } from "../context/userContext";
 import Login from "./modals/Login";
-import { API } from "../config/api";
+import { API } from "../config/Api";
 import { useQuery } from "react-query";
 
 function ListTiketKereta({ stasiun_awal, stasiun_akhir, search }) {

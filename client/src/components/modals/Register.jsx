@@ -5,7 +5,7 @@ import { Modal, Form, Alert } from "react-bootstrap"
 import { useMutation } from "react-query"
 
 // import API
-import { API } from "../../config/api"
+import { API } from "../../config/Api"
 import { useState } from "react"
 
 export default function Registrasi(props) {

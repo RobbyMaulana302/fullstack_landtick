@@ -6,7 +6,7 @@ import BrandWhite from "../../assets/image/BrandWhite.png";
 import QrPembayaran from "../../assets/image/QrPembayaran.png";
 import { useNavigate, useParams } from "react-router-dom";
 import { useMutation, useQuery } from "react-query";
-import { API } from "../../config/api";
+import { API } from "../../config/Api";
 import { useEffect } from "react";
 
 function UserPayment() {
