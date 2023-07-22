@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Card, Row, Col, Button } from "react-bootstrap";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 // import image
 import BrandWhite from "../../assets/image/BrandWhite.png";

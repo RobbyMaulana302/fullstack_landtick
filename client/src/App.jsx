@@ -6,7 +6,7 @@ import Header from './components/Header'
 
 // import boostrap
 import "bootstrap/dist/css/bootstrap.min.css"
-import {  Route, Routes, useNavigate } from 'react-router-dom'
+import {  Route, Routes} from 'react-router-dom'
 import HomePage from './pages/HomePage'
 
 // import user pages
@@ -16,8 +16,6 @@ import UserPayment from './pages/user/UserPayment'
 import AdminHomePage from './pages/admin/AdminHomePage'
 import AdminTambahTiket from './pages/admin/AdminTambahTiket'
 import PrivateRoute from './privateroute/PrivateRoute'
-import { UserContext } from './context/userContext'
-import { API, setAuthToken } from './config/api'
 
 
 function App() {
